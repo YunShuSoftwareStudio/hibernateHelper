@@ -15,6 +15,20 @@
             <url>https://github.com/YunShuSoftwareStudio/hibernateHelper/blob/master/LICENSE</url>
         </license>
     </licenses>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>5.0.0.RELEASE</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.2.11.Final</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <!--JDK版本 -->
