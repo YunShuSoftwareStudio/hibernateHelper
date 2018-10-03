@@ -1,3 +1,5 @@
+package top.sl;
+
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
 
 import java.io.Serializable;
@@ -11,7 +13,7 @@ import java.util.List;
  * You should extends this class in your dao implements<br/>
  * such as:<br/>
  * <code>
- * public class UserDaoImpl extends BaseDaoRepository<User, String> implements UserDao
+ * public class UserDaoImpl extends top.sl.BaseDaoRepository<User, String> implements UserDao
  * </code>
  *
  * @author 舒露
