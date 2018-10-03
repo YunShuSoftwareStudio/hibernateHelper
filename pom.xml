@@ -6,7 +6,7 @@
 
     <groupId>com.github.YunShuSoftwareStudio</groupId>
     <artifactId>hibernateHelper</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <url>https://github.com/YunShuSoftwareStudio/hibernateHelper</url>
     <licenses>
