@@ -1,6 +1,7 @@
 # hibernateHelper
 Package Base Dao Methods
-# 如何使用
+# 导入
+[![](https://jitpack.io/v/YunShuSoftwareStudio/hibernateHelper.svg)](https://jitpack.io/#YunShuSoftwareStudio/hibernateHelper)
 ## maven
 ```
 <repositories>
@@ -14,7 +15,7 @@ Package Base Dao Methods
 <dependency>
   <groupId>com.github.YunShuSoftwareStudio</groupId>
   <artifactId>hibernateHelper</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 ## gradle
@@ -28,6 +29,14 @@ allprojects {
 ```
 ```
 dependencies {
-  implementation 'com.github.YunShuSoftwareStudio:hibernateHelper:1.0.0'
+  implementation 'com.github.YunShuSoftwareStudio:hibernateHelper:1.0.1'
 }
+```
+# 使用
+```
+public interface UserDao extends BaseDao<User, String> {
+}
+```
+```
+public class UserDaoImpl extends BaseDaoRepository<User, String> implements UserDao 
 ```
